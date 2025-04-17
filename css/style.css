@@ -1,0 +1,260 @@
+@font-face {
+
+	font-family: Moonrising;
+
+	src: url('../font/Moonrising.otf') format('OpenType font file');
+
+
+}
+
+
+
+@media screen {
+	
+
+
+#header{
+	font-family: Moonrising;
+    background-color: rgb(255, 200, 0);
+	width: 11em;
+	height: 2em;
+	margin-left :20em; 
+	
+	font-size: x-large;
+	padding-left: 2.5em;
+	padding-top: 1em;
+	color: black;
+	overflow-x: hidden;
+	
+	
+}
+
+
+
+
+
+
+
+
+#navdiv {
+
+	width: 50em;
+	float: right;
+	
+
+}
+
+#navdiv ul li {
+
+	width: 10em;
+	float: left;
+	margin: .5em .5em .5em .5em;
+	text-align: center;
+	font-family: Moonrising;
+}
+
+#home{
+
+	background-color: rgb(255, 200, 0);
+	margin-left: 3em;
+	
+
+}
+
+#ah{
+    
+	text-decoration:none;
+	color: black;
+	font-size: x-large;
+	
+}
+
+
+.ch a{
+
+	text-decoration:none;
+	color: rgb(132, 132, 132);
+	font-size: x-large;
+
+}
+
+
+.ch:hover{
+
+background-color: rgb(255, 200, 0);
+
+}
+
+.ch a:hover{
+
+	color: black;
+	
+	
+	}
+
+
+
+
+
+body {
+	background: linear-gradient(rgba(0,0,0,0.95),rgba(0,0,0,0.65),rgba(0,0,0,0.0),rgba(0,0,0,0)) , url(../image/food2.jpg)no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: white;
+	overflow-x: hidden;
+}
+
+
+.note{
+
+	width: 18.75em ;
+	height: 100% ;
+	background-color: black;
+	opacity: 0.8 ;
+	padding: 3.4375em ;
+	font-family:Moonrising;
+	
+}
+
+.note h1{
+
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 6.25em;
+	
+}
+
+.note h4{
+	text-transform: capitalize;
+	text-align: justify;
+	font-size: small;
+	color: darkgray;
+}
+
+.note h2{
+
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: normal;
+	margin: 2.5em auto;
+}
+
+.in form,input[type="button"]{
+	
+	background-color: black;
+	color: white;
+	padding: 0.625em;
+	margin: -0.875em;
+	padding-left: 3.125em;
+	padding-right: 3.125em;
+	margin-bottom: 1em ;
+	text-align: center;
+}
+
+form,input[type="button"]{
+	background-color:darkgray;
+	color: black;
+}
+
+
+form,input[type="button"]:hover{
+	background-color:  rgb(255, 200, 0) ;
+}
+
+
+.foot{
+	
+	
+	background-color: rgb(255, 200, 0);
+	font-family:'Courier New', Courier, monospace;
+	color: black;
+	text-align: center;
+	opacity: 0.6;
+	padding: 0%;
+	margin: 0%;
+	font-weight: bold;
+	padding-bottom: 0.50em;
+	
+}
+
+}
+
+
+
+@media screen and (max-width:480px){
+
+
+#header font{
+
+	font-size:medium;
+	
+}
+#header {
+
+	
+	width: 6em;
+	height: .5em;
+	padding-left: .5em;
+	padding-bottom: 1em;
+	padding-top: .2em;
+	overflow-y:hidden;
+	margin-left: 4em;
+	
+	
+	
+	
+	
+}
+
+
+#navdiv {
+
+	width: 25em;
+	
+	
+
+}
+
+
+#navdiv ul li {
+
+	width: 3em;
+	margin-left: 1.8em;
+	
+	
+}
+
+
+#ah{
+    
+	
+	font-size: x-small;
+	
+	
+}
+
+
+.ch a{
+
+
+	font-size: x-small;
+
+}
+
+
+
+
+.note{
+
+    width: 12em;
+	margin-top: 4em ;
+	
+	
+}
+
+
+
+
+	
+}
+
